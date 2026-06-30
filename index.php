@@ -28,14 +28,14 @@
         box-shadow: 0 20px 35px rgba(6, 182, 212, 0.12);
       }
     </style>
-    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur">
+    <header class="sticky top-0 z-40 border-b border-slate-800/80 bg-slate-900/85 backdrop-blur-xl">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#top" class="text-lg font-semibold tracking-wide text-cyan-400">Ana Carolina</a>
-        <nav class="flex gap-4 text-sm text-slate-300">
-          <a href="#apresentacao" class="transition hover:text-white">Apresentação</a>
-          <a href="#projetos" class="transition hover:text-white">Projetos</a>
-          <a href="#competencias" class="transition hover:text-white">Competências</a>
-          <a href="#contatos" class="transition hover:text-white">Contatos</a>
+        <a href="#top" class="rounded-full bg-gradient-to-r from-cyan-500/20 via-cyan-400/10 to-sky-500/20 px-4 py-2 text-lg font-semibold tracking-[0.2em] text-cyan-200 shadow-[0_0_24px_rgba(34,211,238,0.28)] transition duration-300 hover:-translate-y-0.5 hover:text-white hover:shadow-[0_0_30px_rgba(34,211,238,0.35)]">Ana Carolina</a>
+        <nav class="flex flex-wrap items-center justify-end gap-2 text-sm text-slate-300">
+          <a href="#apresentacao" class="rounded-full px-3 py-2 transition hover:bg-slate-800 hover:text-white">Apresentação</a>
+          <a href="#projetos" class="rounded-full px-3 py-2 transition hover:bg-slate-800 hover:text-white">Projetos</a>
+          <a href="#competencias" class="rounded-full px-3 py-2 transition hover:bg-slate-800 hover:text-white">Competências</a>
+          <a href="#contatos" class="rounded-full px-3 py-2 transition hover:bg-slate-800 hover:text-white">Contatos</a>
         </nav>
       </div>
     </header>
@@ -53,6 +53,7 @@
           <div class="mt-8 flex flex-wrap gap-3">
             <a href="#projetos" class="rounded-full bg-cyan-500 px-5 py-2.5 font-medium text-slate-950 transition hover:bg-cyan-400">Ver projetos</a>
             <a href="#contatos" class="rounded-full border border-slate-700 px-5 py-2.5 font-medium text-slate-200 transition hover:border-cyan-400 hover:text-cyan-300">Contatos</a>
+            <a href="https://github.com/Anablip" target="_blank" rel="noopener noreferrer" class="rounded-full border border-cyan-400/40 px-5 py-2.5 font-medium text-cyan-200 transition hover:bg-cyan-500/10">GitHub</a>
             <button id="curiosityToggle" class="rounded-full border border-cyan-400/40 px-5 py-2.5 font-medium text-cyan-200 transition hover:bg-cyan-500/10">Mostrar curiosidade</button>
           </div>
           <div id="curiosityPanel" class="mt-4 hidden rounded-2xl border border-cyan-500/30 bg-cyan-500/10 p-4 text-sm text-cyan-100">
@@ -215,6 +216,10 @@
           <p class="text-slate-300"><span class="font-semibold text-white">Nome:</span> Ana Carolina Tavares Almeida Clemente</p>
           <p class="mt-2 text-slate-300"><span class="font-semibold text-white">Curso:</span> Técnico em Desenvolvimento de Sistemas</p>
           <p class="mt-2 text-slate-300"><span class="font-semibold text-white">Instituição:</span> Escola Industrial Deputado Domingos de Figueiredo</p>
+          <p class="mt-2 text-slate-300"><span class="font-semibold text-white">E-mail:</span> <a href="mailto:anacarolinat3306@gmail.com" class="text-cyan-400 transition hover:text-cyan-300">anacarolinat3306@gmail.com</a></p>
+          <p class="mt-2 text-slate-300"><span class="font-semibold text-white">Telefone:</span> <a href="tel:+553597498136" class="text-cyan-400 transition hover:text-cyan-300">+55 35 9749-8136</a></p>
+          <p class="mt-2 text-slate-300"><span class="font-semibold text-white">GitHub:</span> <a href="https://github.com/Anablip" target="_blank" rel="noopener noreferrer" class="text-cyan-400 transition hover:text-cyan-300">github.com/Anablip</a></p>
+          <p class="mt-2 text-slate-300"><span class="font-semibold text-white">Repositório:</span> <a href="https://github.com/Anablip/portifolio" target="_blank" rel="noopener noreferrer" class="text-cyan-400 transition hover:text-cyan-300">github.com/Anablip/portifolio</a></p>
         </div>
       </section>
     </main>
